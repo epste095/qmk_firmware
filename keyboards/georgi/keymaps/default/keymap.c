@@ -121,10 +121,10 @@ uint32_t processQwerty(bool lookup) {
     P( RNO | LH,     SEND(KC_4));
     P( RNO | ST1,    SEND(KC_5));
     P( RNO | ST3,    SEND(KC_6));
-    P( RNO | RF,     SEND(KC_7));
-    P( RNO | RP,     SEND(KC_8));
-    P( RNO | RL,     SEND(KC_9));
-    P( RNO | RT,     SEND(KC_0));
+    P( RE | RR,     SEND(KC_U));
+    P( RE | BB,     SEND(KC_I));
+    P( RE | RG,     SEND(KC_O));
+    P( RE | RS,     SEND(KC_P));
     P( RNO | LA,     SEND(KC_5));
 
     // Specials
