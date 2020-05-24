@@ -233,7 +233,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [GAMING] = LAYOUT_georgi(
         LT(GAMING_2, KC_ENT), KC_Q,    KC_Q,    KC_R,    KC_E,    KC_T,                       KC_TRNS,    KC_U,    KC_I,    KC_O,    KC_P,    KC_ESC,
         TO(STENO_LAYER), KC_DOWN,    KC_A,    KC_S,    KC_D,    KC_G,                       KC_B,    KC_K,    KC_SPC,    KC_L,    KC_W, KC_DQUO,
-                                   KC_LALT, KC_SPC, KC_RIGHT,       KC_SCLN,  KC_J, KC_MS_BTN1
+                                   KC_LALT, KC_SPC, KC_LSFT,       KC_SCLN,  KC_J, KC_MS_BTN1
     ),
 
     [GAMING_2] = LAYOUT_georgi(
