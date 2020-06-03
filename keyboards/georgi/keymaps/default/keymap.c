@@ -231,8 +231,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
     // Gaming layer with Numpad, Very limited
     [GAMING] = LAYOUT_georgi(
-        LT(GAMING_2, KC_ENT), KC_Q,    KC_Q,    KC_EQL,    KC_E,    KC_T,                       KC_TRNS,    KC_U,    KC_I,    KC_O,    KC_P,    KC_ESC,
-        KC_TRNS, KC_SCLN,    KC_A,    KC_S,    KC_D,    KC_G,                       KC_B,    KC_K,    KC_SPC,    KC_DOWN,    KC_W, LT(GAMING_2, KC_ENT),
+        TO(GAMING_2), KC_Q,    KC_Q,    KC_EQL,    KC_E,    KC_T,                       KC_TRNS,    KC_U,    KC_I,    KC_O,    KC_P,    KC_ESC,
+        KC_TRNS, KC_SCLN,    KC_A,    KC_S,    KC_D,    KC_G,                       KC_B,    KC_K,    KC_SPC,    KC_DOWN,    KC_W, KC_L,
                                    KC_LALT, KC_C, KC_N,       KC_M,  KC_J, KC_MS_BTN1
     ),
 
