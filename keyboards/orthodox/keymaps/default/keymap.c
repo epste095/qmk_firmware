@@ -27,7 +27,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // entirely and just use numbers.
 #define _QWERTY 1
 #define _COLEMAK 0
-#define _GAMING 2
+#define _DVORAK 2
 #define _LOWER 3
 #define _RAISE 4
 #define _ADJUST 16
@@ -56,7 +56,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_LCTL,  KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,      KC_LALT, KC_SPACE, KC_BSPC,        KC_DEL,  KC_ENT,  TO(_GAMING),    KC_K,    KC_M,    KC_COMM, KC_DOT,  KC_SLASH, KC_LGUI \
   ),
 
-  [_GAMING] = LAYOUT(\
+  [_DVORAK] = LAYOUT(\
     KC_TAB,   KC_QUOT, KC_Q, KC_EQL, KC_E,     KC_Y,                                                      KC_F,    KC_SCLN,    KC_RIGHT,    KC_R,    KC_E,    TO(_COLEMAK), \
     KC_ESC,   KC_SCLN,    KC_A,    KC_S,   KC_D,     KC_I, KC_UP,    KC_DOWN,        KC_I, KC_O,          KC_D,    KC_K,    KC_SPACE,    KC_L,    KC_W,    KC_N, \
     KC_LCTL,  KC_X, KC_Q,    KC_J,   KC_K,     KC_X,      KC_V, KC_C, KC_N,        KC_U,  KC_J, KC_P,    KC_B,    KC_M,    KC_W,    KC_V,    KC_Z,    KC_LGUI \
