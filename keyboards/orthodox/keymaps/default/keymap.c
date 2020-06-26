@@ -53,7 +53,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_COLEMAK] = LAYOUT(\
     KC_TAB,   KC_Q,    KC_W,    KC_F,    KC_P,    KC_G,                                                                   KC_J,    KC_L,    KC_U,    KC_Y,    KC_SCLN, KC_BSPC, \
     KC_ESC,   KC_A,    KC_R,    KC_S,    KC_T,    KC_D,             KC_UP, LOWER,             KC_LEFT, RAISE,          KC_H,    KC_N,    KC_E,    KC_I,    KC_O,    KC_QUOT, \
-    KC_LCTL,  KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,      KC_LALT, KC_SPACE, KC_BSPC,        KC_DEL,  KC_ENT,  TO(_GAMING),    KC_K,    KC_M,    KC_COMM, KC_DOT,  KC_SLASH, KC_LGUI \
+    KC_LCTL,  KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,      KC_LALT, KC_SPACE, KC_BSPC,        KC_DEL,  KC_ENT,  TO(_DVORAK),    KC_K,    KC_M,    KC_COMM, KC_DOT,  KC_SLASH, KC_LGUI \
   ),
 
   [_DVORAK] = LAYOUT(\
