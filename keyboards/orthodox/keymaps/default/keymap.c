@@ -59,7 +59,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_DVORAK] = LAYOUT(\
     KC_TAB,   KC_QUOT, KC_Q, KC_EQL, KC_E,     KC_Y,                                                      KC_F,    KC_E,    KC_RIGHT,    KC_R,    KC_E,    TO(_COLEMAK), \
     KC_ESC,   KC_SCLN,    KC_A,    KC_S,   KC_D,     KC_I, KC_UP,    KC_DOWN,        KC_U, KC_P,          KC_D,    KC_K,    KC_SPACE,    KC_6,    KC_W,    KC_N, \
-    KC_LCTL,  KC_X, KC_Q,    KC_J,   KC_K,     KC_X,      KC_V, KC_C, KC_N,        KC_I,  KC_J, KC_o,    KC_B,    KC_M,    KC_W,    KC_V,    KC_Z,    KC_LGUI \
+    KC_LCTL,  KC_X, KC_Q,    KC_J,   KC_K,     KC_X,      KC_V, KC_C, KC_N,        KC_I,  KC_J, KC_O,    KC_B,    KC_M,    KC_W,    KC_V,    KC_Z,    KC_LGUI \
   ),
 
   [_LOWER] = LAYOUT( \
